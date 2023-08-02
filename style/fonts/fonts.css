@@ -1,0 +1,26 @@
+@font-face {
+    font-family: 'Geologica Roman';
+    src: url('./GeologicaRoman-Bold.eot');
+    src: url('./GeologicaRoman-Bold.eot?#iefix') format('embedded-opentype'),
+        url('./GeologicaRoman-Bold.woff2') format('woff2'),
+        url('./GeologicaRoman-Bold.woff') format('woff'),
+        url('./GeologicaRoman-Bold.ttf') format('truetype'),
+        url('./GeologicaRoman-Bold.svg#GeologicaRoman-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Geologica Roman';
+    src: url('./GeologicaRoman-Regular.eot');
+    src: url('./GeologicaRoman-Regular.eot?#iefix') format('embedded-opentype'),
+        url('./GeologicaRoman-Regular.woff2') format('woff2'),
+        url('./GeologicaRoman-Regular.woff') format('woff'),
+        url('./GeologicaRoman-Regular.ttf') format('truetype'),
+        url('./GeologicaRoman-Regular.svg#GeologicaRoman-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+

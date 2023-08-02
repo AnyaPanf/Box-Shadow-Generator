@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box Shadow Generator</title>
+    <link rel="stylesheet" href="./style/style.css">
+    <link rel="stylesheet" href="./style/fonts/fonts.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="wrapper">
+            <div class="wrapper__settings">
+                <h1 class="wrapper__title">Simple Box Shadow Generator</h1>
+                <div class="wrapper__setting">
+                    <p wrapper__text>Shift vertical:</p>
+                    <input class="vert" type="range" min="-100" max="100">
+                </div>
+                <div class="wrapper__setting">
+                    <p wrapper__text>Shift horizontal:</p>
+                    <input type="range" id="horizontal" min="-100" max="100">
+                </div>
+                <div class="wrapper__setting">
+                    <p wrapper__text>Blur:</p>
+                    <input type="range" id="blur" min="-100" max="100">
+                </div>
+                <div class="wrapper__setting">
+                    <p wrapper__text>Spread:</p>
+                    <input type="range" id="spread" min="-100" max="100">
+                </div>
+
+                <input type="color" id="color">
+            </div>
+            <div class="wrapper__box">
+                <div class="box"></div>
+            </div>
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+
+</html>

@@ -10,31 +10,53 @@
 </head>
 
 <body>
-    <div class="container">
-        <div class="wrapper">
-            <div class="wrapper__settings">
-                <h1 class="wrapper__title">Simple Box Shadow Generator</h1>
-                <div class="wrapper__setting">
-                    <p wrapper__text>Shift vertical:</p>
-                    <input class="vert" type="range" min="-100" max="100">
+    <div class="generator">
+        <div class="container">
+            <div class="generator__wrapper">
+                <div class="generator__settings">
+                    <h1 class="generator__title">Simple Box Shadow Generator</h1>
+                    <div class="generator__setting">
+                        <p>Shift vertical:</p>
+                        <input class="vert" type="range" min="-100" max="100">
+                    </div>
+                    <div class="generator__setting">
+                        <p>Shift horizontal:</p>
+                        <input type="range" id="horizontal" min="-100" max="100">
+                    </div>
+                    <div class="generator__setting">
+                        <p>Blur:</p>
+                        <input type="range" id="blur" min="0" max="50">
+                    </div>
+                    <div class="generator__setting">
+                        <p>Spread:</p>
+                        <input type="range" id="spread" min="-100" max="100">
+                    </div>
+                    <div class="generator__setting">
+                        <p>Border radius:</p>
+                        <input type="range" id="radius" min="0" max="100">
+                    </div>
+                    <div class="generator__spectors">
+                        <div class="wrapper__color">
+                            <p>Shadow<br> color:</p>
+                            <input type="color" id="color" value="#d6d6d6">
+                        </div>
+                        <div class="generator__color">
+                            <p>Background<br> color:</p>
+                            <input type="color" id="bcg__color" value="#ffffff">
+                        </div>
+                        <div class="generator__color">
+                            <p>Box<br> color:</p>
+                            <input type="color" id="box__color" value="#ffd700">
+                        </div>
+                    </div>
+                    <div class="generator__coding">
+                        <p class="generator__text">Copy your code:</p>
+                        <p class="generator__code"></p>
+                    </div>
                 </div>
-                <div class="wrapper__setting">
-                    <p wrapper__text>Shift horizontal:</p>
-                    <input type="range" id="horizontal" min="-100" max="100">
+                <div class="generator__box">
+                    <div class="box"></div>
                 </div>
-                <div class="wrapper__setting">
-                    <p wrapper__text>Blur:</p>
-                    <input type="range" id="blur" min="-100" max="100">
-                </div>
-                <div class="wrapper__setting">
-                    <p wrapper__text>Spread:</p>
-                    <input type="range" id="spread" min="-100" max="100">
-                </div>
-
-                <input type="color" id="color">
-            </div>
-            <div class="wrapper__box">
-                <div class="box"></div>
             </div>
         </div>
     </div>

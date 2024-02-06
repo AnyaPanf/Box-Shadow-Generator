@@ -1,4 +1,4 @@
-# BoxShadowGenerator
+# Box Shadow Generator
 A simple box-shadow CSS generator that helps you quickly generate box-shadow CSS declarations.
 
 ## Technologies
